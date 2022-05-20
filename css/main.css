@@ -1,0 +1,437 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    background: url(../image/Slider.png);
+    height: 650px;
+    background-size: cover;
+}
+
+.logo{
+    position: absolute;
+    margin-top: 23px;
+    /* margin-left: 164px; */
+}
+
+.icons{
+    margin-left: 95%;
+    margin-top: 25px;
+}
+
+.place{
+    color: white;
+    font-size: 14px;
+    margin-top: 10%;
+}
+
+h4{
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.antello{
+    color: #fff;
+    margin-top: 3%;
+}
+
+select{
+    border: none;
+    background: transparent;
+    color: #FFD723;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.box{
+    /* position: absolute; */
+    border: 1px solid white;
+    height: 227px;
+    width: 1267px;
+    margin-left: 5%;
+    background-color: white;
+    margin-top: 2%;
+}
+
+.box:hover{
+    background: #FFFFFF;
+    box-shadow: 50px 50px 100px gray;
+    transition: 0.7s;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.andrew{
+    width: 156px;
+    margin-left: 200px;
+    margin-top: 6%;
+}
+
+.jalen{
+    width: 156px;
+    margin-left: 50px;
+    margin-top: 6%;  
+}
+
+.wal{
+    width: 156px;
+    margin-left: 50px;
+    margin-top: 6%;
+}
+
+.ideal{
+    width: 156px;
+    margin-left: 50px;
+    margin-top: 6%;
+}
+
+.PhalenLeadership{
+    width: 156px;
+    margin-left: 50px;
+    margin-top: 6%;
+}
+
+.what{
+    font-size: 14px;
+    margin-top: 5%;
+}
+
+.paragrf{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+}
+
+.there{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6);
+}
+
+.more{
+    color: #D4D6D4;
+}
+
+.box_two{
+    margin-left: 50%;
+    margin-top: -30%;
+    /* border: 1px solid rgb(248, 243, 243); */
+    width: 30%;
+    height: 480px;
+}
+
+.box_two > p {
+    margin-top: 15%;
+    margin-left: 2%;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 400;
+} 
+
+.box_two:hover{
+    background: #FFFFFF;
+    box-shadow: 0px 100px 100px rgba(0, 0, 0, 0.145947);
+    transition: 0.5s;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.box_two > .oval{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    margin-top: 29%;
+    margin-left: 1%;
+}
+
+.box_two > h6{
+    position: absolute;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 33px;
+    margin-top: 29.5%;
+    margin-left: 7%;
+}
+
+.ceo{
+    position: absolute;
+    margin-top: 80%;
+}
+
+hr{
+    margin-left: 7%;
+    width: 80%;
+    position: absolute;
+    margin-top: 10%;
+    /* background: rgba(33, 56, 66, 0.0955529); */
+}
+
+.main_section > h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin-left: 7%;
+    margin-top: 15%;
+}
+
+.main_section > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6);
+    margin-left: 40%;
+    margin-top: -8%;
+}
+
+.image{
+    width: 650px;
+    margin-top: 5%;
+    margin-left: -1.2%;
+}
+
+.main_section > .card_one{
+    border: 1px solid rgb(207, 204, 204);
+    width: 370px;
+    height: 220px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-top: -10%;
+    position: absolute;
+}
+
+.main_section > .card_one:hover{
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    transition: 0.5s;
+}
+
+.in{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-top: 7%;
+    margin-left: 5%;
+}
+
+.oval_one{
+    margin-top: -7%;
+}
+
+.card_one > h6{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    margin-top: -30%;
+    margin-left: 25%;
+    position: absolute;
+}
+
+.card_one > .founder{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    margin-top: -22%;
+    margin-left: 25%;
+}
+
+.the_wall{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #4D533C;
+}
+
+.paragrf_one{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6);
+    margin-left: 50%;
+    position: absolute;
+}
+
+.main_section > select{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18px;
+    text-decoration-line: underline;
+    color: #D4D6D4;
+    margin-left: 60%;
+    margin-top: 20%;
+}
+
+.group > h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #4D533C;
+    margin-left: 7%;
+    margin-top: 20%;
+}
+
+.group > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6);
+    margin-left: 7%;
+}
+
+.group > .image_two{
+    width: 650px;
+    margin-top: -23%;
+    margin-left: 51.8%;   
+}
+
+
+.group > .box_one{
+    border: 1px solid rgb(207, 204, 204);
+    width: 370px;
+    height: 220px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 45%;
+    margin-top: -10%;
+    position: absolute;
+}
+
+.group > .box_one:hover{
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    transition: 0.5s;
+}
+
+.group_one > h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    color: #4D533C;
+    margin-left: 53%;
+    margin-top: 18%;
+    position: absolute;
+}
+
+.group_one > p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: rgba(33, 56, 66, 0.6);
+    margin-left: 54%;
+    margin-top: -23%;
+}
+
+.group_one > .card_one {
+    border: 1px solid rgb(207, 204, 204);
+    width: 370px;
+    height: 220px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-top: 5%;
+    position: absolute;
+}
+
+.group_one > .card_one:hover{
+    box-shadow: 50px 50px 100px rgba(0, 0, 0, 0.145947);
+    transition: 0.5s;
+}
+
+.group_one > .in{
+    border: 1px solid rgb(207, 204, 204);
+    width: 370px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 8px;
+    margin-left: 25%;
+    margin-top: -10%;
+    position: absolute;
+    font-size: 16px;
+}
+
+.Services > h1{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #4D533C;
+    margin-top: 50%;
+    margin-left: 7%;
+}
+
+.product{
+    margin-left: 7%;
+    margin-top: 5%;
+}
+
+.scoping{
+    margin-top: 5%;
+    margin-left: 3%;
+}
+
+.desing{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.code{
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.call{
+    width: 1100px;
+    margin-left: 0%;
+    margin-top: -10%;
+    position: absolute;
+}
+
+.footer{
+    background: url(../image/footer_background.png);
+    width: 102.3%;
+    height: 890px;
+    margin-top: 30%;
+    margin-left: -1.2%;
+}
+
+.phone{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 7%;
+    color: #B6C197;
+}
+
+.footer > h6{
+    color: #fff;
+    margin-top: 20%;
+    position: absolute;
+    margin-left: 7%;
+}
+
+.footer > .adres{
+    color: #B6C197;
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 35%;
+}
+
+.footer > .merlin{
+    margin-left: 35%;
+}
+
+.footer > hr{
+    position: absolute;
+    margin-top: 30%;
+}
+
+.footer > .service{
+    margin-top: 33%;
+    margin-left: 7%;
+}
+
+.footer > .group18{
+    margin-left: 7%;
+    margin-top: 3%;
+}
